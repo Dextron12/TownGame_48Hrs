@@ -1,0 +1,6 @@
+.vs\
+TownGame_48Hrs\
+x64\
+default.map
+*.vcxproj.filters
+*.vcxproj.user
