@@ -1,0 +1,11 @@
+#All lines beginning with # with be ignored by the map reader. The map reader will read each row as its own row in the map.
+#Map For TownGame
+#Any tile atlasName->(ID) is a subTexture from a textureAtlas. anything else is a regular texture.
+
+Tile Size: 16x16
+grass->(1)(0,0), grass->(2)(1,0), grass->(3)(2,0)
+grass->(9)(0,1), grass->(10)(1,1), grass->(11)(2,1)
+grass->(17)(0,2), grass->(18)(1,2), grass->(19)(2,2)
+grass(0,3), grass(1,3), grass(2, 3)
+#(entity): "cheese"(1,3)
+#(entity): foodConsumables->(6)(3,3)(16x96)
